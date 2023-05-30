@@ -1,0 +1,21 @@
+Video guide to setup Project
+https://www.youtube.com/watch?v=Ope4icw6bVk&t=2s
+
+Requirements for this project file:
+1. JavaFX SDK 19 - https://download2.gluonhq.com/openjfx/19/openjfx-19_windows-x64_bin-sdk.zip
+2. Java 18 - https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+-------------------------------------------------------------------------------------------------
+1. After downloading JavaFX SDK 19, extract it to your desired location.
+2. After downloading Java 18, extract it to your desired location.
+3. Go to File -> Project Structure -> Project Settings -> Project -> Project SDK -> Select Java 18 - > Apply
+4. Go to File -> Project Structure -> Libraries -> Add Library -> Java -> Select the JavaFX SDK 19 folder -> Apply
+5. Setup VM option to run the project:
+--module-path "C:\Users\YourUsername\Downloads\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml
+6. Insert the above command to the VM option in the Run Configuration.
+----------------------------------------------------------------------------------------------------------------------
+
+HOW TO SETUP SCENE BUILDERS:
+1. Download Scene Builder 19 - https://gluonhq.com/products/scene-builder/
+2. Extract it to your desired location.
+3. On any .fxml files, right click -> Open in Scene Builder.
+4. Select the Scene Builder .exe file from installed location
